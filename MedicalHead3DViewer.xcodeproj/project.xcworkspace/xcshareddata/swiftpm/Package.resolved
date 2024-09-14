@@ -1,0 +1,24 @@
+{
+  "originHash" : "50d8225349b9272d0632ef9daa412f3f5329220a71d130a1261e73b49ad0fefa",
+  "pins" : [
+    {
+      "identity" : "realitykit-fade",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Reality-Dev/RealityKit-Fade",
+      "state" : {
+        "revision" : "c42909e167a071e25f0d2e1601345a70993b8599",
+        "version" : "1.2.1"
+      }
+    },
+    {
+      "identity" : "realitykit-utilities",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Reality-Dev/RealityKit-Utilities",
+      "state" : {
+        "revision" : "f018d0ed3daaf71497b9da406893dd75ec8c6627",
+        "version" : "1.1.1"
+      }
+    }
+  ],
+  "version" : 3
+}

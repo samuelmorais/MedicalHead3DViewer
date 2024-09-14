@@ -4,20 +4,47 @@
 <dict>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
-		<key>UIApplicationPreferredDefaultSceneSessionRole</key>
-		<string>UIWindowSceneSessionRoleVolumetricApplication</string>
 		<key>UIApplicationSupportsMultipleScenes</key>
 		<true/>
 		<key>UISceneConfigurations</key>
+		<dict/>
+	</dict>
+	<key>CFBundleDocumentTypes</key>
+	<array>
 		<dict>
-			<key>UISceneSessionRoleImmersiveSpaceApplication</key>
+			<key>CFBundleTypeName</key>
+			<string>ReferenceObject</string>
+			<key>LSHandlerRank</key>
+			<string>Default</string>
+			<key>LSItemContentTypes</key>
 			<array>
-				<dict>
-					<key>UISceneInitialImmersionStyle</key>
-					<string>UIImmersionStyleMixed</string>
-				</dict>
+				<string>com.apple.arkit.referenceobject</string>
 			</array>
 		</dict>
-	</dict>
+	</array>
+	<key>NSWorldSensingUsageDescription</key>
+	<string>Scan your environment to detect objects</string>
+	<key>UTImportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>ReferenceObject</string>
+			<key>UTTypeIconFiles</key>
+			<array/>
+			<key>UTTypeIdentifier</key>
+			<string>com.apple.arkit.referenceobject</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>referenceobject</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
 </dict>
 </plist>

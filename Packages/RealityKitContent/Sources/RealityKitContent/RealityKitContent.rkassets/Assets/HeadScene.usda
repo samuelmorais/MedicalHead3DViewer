@@ -1,0 +1,1215 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "Reality Composer Pro Version 2.0 (448.0.16.0.3)"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    reorder nameChildren = ["Face", "Arteries", "BrainSlices", "Skull_Anim", "InternalArteries"]
+    float3 xformOp:scale = (0.1, 0.1, 0.1)
+    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+    def "Face" (
+        customData = {
+            float3 rotationEulerHint = (0, 0, 0)
+        }
+        references = @sam2.usdz@
+    )
+    {
+        reorder nameChildren = ["Materials", "mesh_Mesh", "Arterias_cerebrales"]
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (0.1, 0.1, 0.1)
+        float3 xformOp:translate = (0, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "Materials"
+        {
+            over "mesh_material0001"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0001PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0083"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0083PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0093"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0093PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0089"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0089PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0091"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0091PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0003"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0003PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0005"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0005PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0007"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0007PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0009"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0009PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0011"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0011PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0013"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0013PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0015"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0015PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0017"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0017PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0019"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0019PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0021"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0021PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0023"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0023PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0025"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0025PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0027"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0027PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0029"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0029PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0031"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0031PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0033"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0033PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0035"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0035PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0037"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0037PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0039"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0039PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0041"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0041PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0043"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0043PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0045"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0045PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0047"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0047PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0049"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0049PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0051"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0051PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0053"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0053PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0055"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0055PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0057"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0057PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0059"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0059PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0061"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0061PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0063"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0063PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0065"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0065PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0067"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0067PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0069"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0069PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0071"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0071PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0073"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0073PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0075"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0075PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0077"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0077PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0079"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0079PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0081"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0081PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0085"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0085PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "mesh_material0087"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "mesh_material0087PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "defaultMaterial"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "Shader"
+                {
+                    float inputs:opacity = 0.1
+                }
+            }
+        }
+
+        def "Arterias_cerebrales" (
+            active = false
+            customData = {
+                float3 rotationEulerHint = (0, -2.7925267, 0)
+            }
+            references = @Arterias_cerebrales.usdz@
+        )
+        {
+            quatf xformOp:orient = (-0.17685507, 0, 0.9842369, 0)
+            float3 xformOp:scale = (0.040000007, 0.04000001, 0.040000007)
+            float3 xformOp:translate = (3.3122597, 16.195559, -1.4989566)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+
+    def Xform "Arteries" (
+        customData = {
+            float3 rotationEulerHint = (0.18811917, 3.4197376, -0.13613568)
+        }
+    )
+    {
+        quatf xformOp:orient = (-0.1440186, 0.05407125, 0.98456967, -0.08341184)
+        float3 xformOp:scale = (0.92, 0.92, 0.92)
+        float3 xformOp:translate = (0.39035985, 1.4183626, 0.27385843)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def "Segmentation_Artery_Th_0_10" (
+            active = true
+            references = @Segmentation_Artery_Th_0_10.usdz@
+        )
+        {
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (0.008, 0.008, 0.008)
+            float3 xformOp:translate = (0.065819144, 7, 0.18974167)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            over "Materials"
+            {
+                over "Scene___Root"
+                {
+                    token outputs:mtlx:surface
+                    token outputs:realitykit:vertex
+
+                    over "pbr_shader"
+                    {
+                        color3f inputs:diffuseColor = (1, 0.23597442, 0.13883679) (
+                            colorSpace = "srgb_displayp3"
+                        )
+                    }
+                }
+            }
+        }
+
+        def RealityKitComponent "HierarchicalFade"
+        {
+            uniform token info:id = "RealityKit.HierarchicalFade"
+        }
+    }
+
+    def Xform "BrainSlices"
+    {
+        reorder nameChildren = ["BrainAxial", "BrainCoronal"]
+        def Xform "BrainAxial" (
+            active = true
+            customData = {
+                float3 rotationEulerHint = (0.78539824, 5.061454, -0.8726645)
+            }
+        )
+        {
+            reorder nameChildren = ["Axial_Slice_5", "Axial_Slice_4", "Axial_Slice_1", "Axial_Slice_10", "Axial_Slice_11", "Axial_Slice_12", "Axial_Slice_13", "Axial_Slice_2", "Axial_Slice_3", "Axial_Slice_6", "Axial_Slice_7", "Axial_Slice_8", "Axial_Slice_9"]
+            quatf xformOp:orient = (0.7786556, 0.06015363, -0.6127474, -0.12090341)
+            float3 xformOp:scale = (0.42, 0.42, 0.42)
+            float3 xformOp:translate = (0.21788831, 1.9009465, 0.04368876)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def "Axial_Slice_1" (
+                active = true
+                references = @Axial_Slice_1.usdz@
+            )
+            {
+                float3 xformOp:scale = (0.01, 0.01, 0.01)
+                float3 xformOp:translate = (0.61822605, 1.9282796, 0.0024067254)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "HierarchicalFade"
+                {
+                    uniform token info:id = "RealityKit.HierarchicalFade"
+                }
+            }
+
+            def "Axial_Slice_10" (
+                active = true
+                references = @Axial_Slice_10.usdz@
+            )
+            {
+                float3 xformOp:scale = (0.01, 0.01, 0.01)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "HierarchicalFade"
+                {
+                    uniform token info:id = "RealityKit.HierarchicalFade"
+                }
+            }
+
+            def "Axial_Slice_11" (
+                active = true
+                references = @Axial_Slice_11.usdz@
+            )
+            {
+                float3 xformOp:scale = (0.01, 0.01, 0.01)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "HierarchicalFade"
+                {
+                    uniform token info:id = "RealityKit.HierarchicalFade"
+                }
+            }
+
+            def "Axial_Slice_12" (
+                active = true
+                references = @Axial_Slice_12.usdz@
+            )
+            {
+                float3 xformOp:scale = (0.01, 0.01, 0.01)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "HierarchicalFade"
+                {
+                    uniform token info:id = "RealityKit.HierarchicalFade"
+                }
+            }
+
+            def "Axial_Slice_13" (
+                active = true
+                references = @Axial_Slice_13.usdz@
+            )
+            {
+                reorder nameChildren = ["Axial_Slice_4", "Materials", "Meshes"]
+                float3 xformOp:scale = (0.01, 0.01, 0.01)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "HierarchicalFade"
+                {
+                    uniform token info:id = "RealityKit.HierarchicalFade"
+                }
+            }
+
+            def "Axial_Slice_2" (
+                active = true
+                references = @Axial_Slice_2.usdz@
+            )
+            {
+                float3 xformOp:scale = (0.01, 0.01, 0.01)
+                float3 xformOp:translate = (0, -0.0016553333, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "HierarchicalFade"
+                {
+                    uniform token info:id = "RealityKit.HierarchicalFade"
+                }
+            }
+
+            def "Axial_Slice_3" (
+                active = true
+                references = @Axial_Slice_3.usdz@
+            )
+            {
+                float3 xformOp:scale = (0.01, 0.01, 0.01)
+                float3 xformOp:translate = (0, -0.0016553333, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "HierarchicalFade"
+                {
+                    uniform token info:id = "RealityKit.HierarchicalFade"
+                }
+            }
+
+            def "Axial_Slice_6" (
+                active = true
+                references = @Axial_Slice_6.usdz@
+            )
+            {
+                float3 xformOp:scale = (0.01, 0.01, 0.01)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "HierarchicalFade"
+                {
+                    uniform token info:id = "RealityKit.HierarchicalFade"
+                }
+            }
+
+            def "Axial_Slice_7" (
+                active = true
+                references = @Axial_Slice_7.usdz@
+            )
+            {
+                float3 xformOp:scale = (0.01, 0.01, 0.01)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "HierarchicalFade"
+                {
+                    uniform token info:id = "RealityKit.HierarchicalFade"
+                }
+            }
+
+            def "Axial_Slice_8" (
+                active = true
+                references = @Axial_Slice_8.usdz@
+            )
+            {
+                float3 xformOp:scale = (0.01, 0.01, 0.01)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "HierarchicalFade"
+                {
+                    uniform token info:id = "RealityKit.HierarchicalFade"
+                }
+            }
+
+            def "Axial_Slice_9" (
+                active = true
+                references = @Axial_Slice_9.usdz@
+            )
+            {
+                float3 xformOp:scale = (0.01, 0.01, 0.01)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "HierarchicalFade"
+                {
+                    uniform token info:id = "RealityKit.HierarchicalFade"
+                }
+            }
+
+            def "Axial_Slice_4" (
+                active = true
+                references = @Axial_Slice_4.usdz@
+            )
+            {
+                quatf xformOp:orient = (1, 0, 0, 0)
+                float3 xformOp:scale = (0.01, 0.01, 0.01)
+                float3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "HierarchicalFade"
+                {
+                    uniform token info:id = "RealityKit.HierarchicalFade"
+                }
+            }
+
+            def "Axial_Slice_5" (
+                active = true
+                references = @Axial_Slice_5.usdz@
+            )
+            {
+                float3 xformOp:scale = (0.01, 0.01, 0.01)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "HierarchicalFade"
+                {
+                    uniform token info:id = "RealityKit.HierarchicalFade"
+                }
+            }
+        }
+
+        def Xform "BrainCoronal" (
+            active = true
+            customData = {
+                float3 rotationEulerHint = (-0.16831756, 3.3740869, 0.031545162)
+            }
+        )
+        {
+            reorder nameChildren = ["Coronal_Slice_2", "Coronal_Slice_1", "Coronal_Slice_3", "Coronal_Slice_4", "Coronal_Slice_5", "Coronal_Slice_6", "Coronal_Slice_7", "Coronal_Slice_8", "Coronal_Slice_9", "Coronal_Slice_10", "Coronal_Slice_11", "Coronal_Slice_12"]
+            float2 ui:nodegraph:node:pos = (20, 20)
+            int ui:nodegraph:node:stackingOrder = 1
+            quatf xformOp:orient = (-0.11687754, -0.0058615794, 0.98976624, 0.08165897)
+            float3 xformOp:scale = (0.082, 0.082, 0.082)
+            float3 xformOp:translate = (0.3890211, 2.1285293, -0.1144308)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def "Coronal_Slice_3" (
+                active = true
+                customData = {
+                    float3 rotationEulerHint = (-6.510728e-9, -1.02385926e-7, 0)
+                }
+                references = @Coronal_Slice3.usdz@
+            )
+            {
+                quatf xformOp:orient = (1, -3.255364e-9, -5.1192963e-8, -1.6665172e-16)
+                float3 xformOp:scale = (0.041, 0.04100001, 0.041)
+                float3 xformOp:translate = (2.5512068, -0.84946996, 3.3041158)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "HierarchicalFade"
+                {
+                    uniform token info:id = "RealityKit.HierarchicalFade"
+                }
+            }
+
+            def "Coronal_Slice_4" (
+                active = true
+                customData = {
+                    float3 rotationEulerHint = (-6.374154e-8, -1.919884e-8, 0)
+                }
+                references = @Coronal_Slice_4.usdz@
+            )
+            {
+                quatf xformOp:orient = (1, -3.187077e-8, -9.59942e-9, -3.059409e-16)
+                float3 xformOp:scale = (0.052, 0.05200001, 0.052)
+                float3 xformOp:translate = (2.6151097, -1.7243584, 1.4398732)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "HierarchicalFade"
+                {
+                    uniform token info:id = "RealityKit.HierarchicalFade"
+                }
+            }
+
+            def "Coronal_Slice_5" (
+                active = true
+                customData = {
+                    float3 rotationEulerHint = (-6.0107986e-8, -8.881783e-16, 0)
+                }
+                references = @Coronal_Slice5.usdz@
+            )
+            {
+                quatf xformOp:orient = (1, -3.0053993e-8, -4.4408916e-16, -1.3346652e-23)
+                float3 xformOp:scale = (0.05699999, 0.057, 0.05699999)
+                float3 xformOp:translate = (5.19618, -0.4490333, -0.28691623)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "HierarchicalFade"
+                {
+                    uniform token info:id = "RealityKit.HierarchicalFade"
+                }
+            }
+
+            def "Coronal_Slice_6" (
+                active = true
+                customData = {
+                    float3 rotationEulerHint = (-6.0107986e-8, -8.881783e-16, 0)
+                }
+                references = @Coronal_Slice_6.usdz@
+            )
+            {
+                quatf xformOp:orient = (1, -3.0053993e-8, -4.4408916e-16, -1.3346652e-23)
+                float3 xformOp:scale = (0.06, 0.06000001, 0.06)
+                float3 xformOp:translate = (2.8905604, -2.3355367, -1.7631458)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "HierarchicalFade"
+                {
+                    uniform token info:id = "RealityKit.HierarchicalFade"
+                }
+            }
+
+            def "Coronal_Slice_7" (
+                active = true
+                customData = {
+                    float3 rotationEulerHint = (-6.0107986e-8, -8.881783e-16, 0)
+                }
+                references = @Coronal_Slice_7.usdz@
+            )
+            {
+                quatf xformOp:orient = (1, -3.0053993e-8, -4.4408916e-16, -1.3346652e-23)
+                float3 xformOp:scale = (0.06, 0.06000001, 0.06)
+                float3 xformOp:translate = (2.9334404, -2.4059536, -4.4062304)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "HierarchicalFade"
+                {
+                    uniform token info:id = "RealityKit.HierarchicalFade"
+                }
+            }
+
+            def "Coronal_Slice_8" (
+                active = true
+                customData = {
+                    float3 rotationEulerHint = (-6.0107986e-8, -8.881783e-16, 0)
+                }
+                references = @Coronal_Slice_8.usdz@
+            )
+            {
+                quatf xformOp:orient = (1, -3.0053993e-8, -4.4408916e-16, -1.3346652e-23)
+                float3 xformOp:scale = (0.062, 0.06200001, 0.062)
+                float3 xformOp:translate = (2.632559, -7.675716, -7.0261793)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "HierarchicalFade"
+                {
+                    uniform token info:id = "RealityKit.HierarchicalFade"
+                }
+            }
+
+            def "Coronal_Slice_9" (
+                active = true
+                customData = {
+                    float3 rotationEulerHint = (-6.0107986e-8, -8.881783e-16, 0)
+                }
+                references = @Coronal_Slice_9.usdz@
+            )
+            {
+                quatf xformOp:orient = (1, -3.0053993e-8, -4.4408916e-16, -1.3346652e-23)
+                float3 xformOp:scale = (0.06, 0.06000001, 0.06)
+                float3 xformOp:translate = (3.1169522, 1.2686497, -8.095608)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "HierarchicalFade"
+                {
+                    uniform token info:id = "RealityKit.HierarchicalFade"
+                }
+            }
+
+            def "Coronal_Slice_10" (
+                active = true
+                customData = {
+                    float3 rotationEulerHint = (-6.0107986e-8, -8.881783e-16, 0)
+                }
+                references = @Coronal_Slice10.usdz@
+            )
+            {
+                quatf xformOp:orient = (1, -3.0053993e-8, -4.4408916e-16, -1.3346652e-23)
+                float3 xformOp:scale = (0.06, 0.06000001, 0.06)
+                float3 xformOp:translate = (3.5906622, -1.9058963, -9.379577)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "HierarchicalFade"
+                {
+                    uniform token info:id = "RealityKit.HierarchicalFade"
+                }
+            }
+
+            def "Coronal_Slice_11" (
+                active = true
+                customData = {
+                    float3 rotationEulerHint = (-2.5240439e-9, -2.7221703e-9, 0.03334802)
+                }
+                references = @Coronal_Slice11.usdz@
+            )
+            {
+                quatf xformOp:orient = (0.999861, -1.2391528e-9, -1.3819379e-9, 0.016673237)
+                float3 xformOp:scale = (0.053, 0.05300001, 0.053)
+                float3 xformOp:translate = (3.8447354, -5.810405, -11.292849)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "HierarchicalFade"
+                {
+                    uniform token info:id = "RealityKit.HierarchicalFade"
+                }
+            }
+
+            def "Coronal_Slice_12" (
+                active = true
+                customData = {
+                    float3 rotationEulerHint = (-6.0107986e-8, -8.881783e-16, 0)
+                }
+                references = @Coronal_Slice12.usdz@
+            )
+            {
+                quatf xformOp:orient = (1, -3.0053993e-8, -4.4408916e-16, -1.3346652e-23)
+                float3 xformOp:scale = (0.04, 0.040000003, 0.04)
+                float3 xformOp:translate = (3.683675, -2.7080503, -13.589843)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "HierarchicalFade"
+                {
+                    uniform token info:id = "RealityKit.HierarchicalFade"
+                }
+            }
+
+            def Xform "Coronal_Slice_2" (
+                active = true
+            )
+            {
+                float3 xformOp:scale = (1.05, 1.05, 1.05)
+                float3 xformOp:translate = (-0.00021076204, -0.29935697, -0.18956146)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def "Coronal_Slice2" (
+                    active = true
+                    customData = {
+                        float3 rotationEulerHint = (-1.5707966, 0.02423318, 1.5707964)
+                    }
+                    references = @Coronal_Slice2.usdz@
+                )
+                {
+                    quatf xformOp:orient = (-0.493905, 0.50602156, 0.49390522, -0.5060213)
+                    float3 xformOp:scale = (0.005999999, 0.006, 0.005999999)
+                    float3 xformOp:translate = (1.9560331, -1.074616, 11.807276)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+                }
+
+                def RealityKitComponent "HierarchicalFade"
+                {
+                    uniform token info:id = "RealityKit.HierarchicalFade"
+                }
+            }
+
+            def Xform "Coronal_Slice_1" (
+                active = true
+                customData = {
+                    float3 rotationEulerHint = (1.1646212e-8, -5.6814706e-8, 0.0593642)
+                }
+            )
+            {
+                quatf xformOp:orient = (0.9995596, 6.663608e-9, -2.8222026e-8, 0.029677741)
+                float3 xformOp:scale = (0.97, 0.97, 0.97)
+                float3 xformOp:translate = (0.43635944, 0.07498599, 0.08076722)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def "Coronal_Slice1" (
+                    active = true
+                    customData = {
+                        float3 rotationEulerHint = (1.5707964, -1.0430813e-7, 0.30962145)
+                    }
+                    references = @Coronal_Slice1.usdz@
+                )
+                {
+                    quatf xformOp:orient = (0.6986503, 0.6986503, 0.10903093, 0.109031014)
+                    float3 xformOp:scale = (0.007, 0.0070000016, 0.0069999998)
+                    float3 xformOp:translate = (1.6571217, -0.67550063, -1.8986034)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+                }
+
+                def RealityKitComponent "HierarchicalFade"
+                {
+                    uniform token info:id = "RealityKit.HierarchicalFade"
+                }
+            }
+        }
+    }
+
+    def "Skull_Anim" (
+        customData = {
+            float3 rotationEulerHint = (-0.24434543, 3.577925, -0.087263346)
+        }
+        references = @Explode 2.usdz@
+    )
+    {
+        quatf xformOp:orient = (-0.20943218, 0.06861882, 0.9669461, 0.1282374)
+        float3 xformOp:scale = (0.123, 0.123, 0.123)
+        float3 xformOp:translate = (0.029116202, 1.1743505, 0.06824037)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "_UNKNOWN_REF_NODE_fosterParent1"
+        {
+            over "Skull"
+            {
+                over "Cranium"
+                {
+                    quatf xformOp:orient = (1, 0, 0, 0)
+                    float3 xformOp:scale = (1, 1, 1)
+                    float3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+                }
+            }
+        }
+
+        over "Materials"
+        {
+            over "pasted_phong3"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "pasted_phong3PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                }
+            }
+
+            over "pasted_lambert5"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "pasted_lambert5PreviewSurface"
+                {
+                    float inputs:opacity = 1
+                    float inputs:roughness = 0.4
+                }
+            }
+        }
+
+        def RealityKitComponent "AnimationLibrary"
+        {
+            uniform token info:id = "RealityKit.AnimationLibrary"
+
+            def RealityKitClipDefinition "Clip_default_subtree_animation"
+            {
+                uniform string[] clipNames = []
+                uniform string sourceAnimationName = "default subtree animation"
+                uniform double[] startTimes = []
+            }
+        }
+
+        def RealityKitComponent "HierarchicalFade"
+        {
+            uniform token info:id = "RealityKit.HierarchicalFade"
+            float opacity = 1
+        }
+    }
+
+    def "InternalArteries" (
+        customData = {
+            float3 rotationEulerHint = (0, 3.5604718, -0.052359402)
+        }
+        references = @Arterias_cerebrales.usdz@
+    )
+    {
+        quatf xformOp:orient = (-0.20784049, 0.025604686, 0.9778124, 0.005442445)
+        float3 xformOp:scale = (0.004, 0.004, 0.004)
+        float3 xformOp:translate = (0.4052213, 1.6281183, -0.14748877)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def RealityKitComponent "HierarchicalFade"
+        {
+            uniform token info:id = "RealityKit.HierarchicalFade"
+            float opacity = 1
+        }
+
+        over "Meshes"
+        {
+            over "Sketchfab_model"
+            {
+                over "_83f7c21bac84a1aac52c6a5cba5bef5_fbx"
+                {
+                    over "RootNode"
+                    {
+                        over "Arteria_Cerebral_anterior"
+                        {
+                            def RealityKitComponent "HierarchicalFade"
+                            {
+                                uniform token info:id = "RealityKit.HierarchicalFade"
+                                float opacity = 1
+                            }
+                        }
+
+                        over "Arterias_del_cerebro_outline"
+                        {
+                            over "Arterias_del_cerebro_outline_mtl1_0"
+                            {
+                                def RealityKitComponent "HierarchicalFade"
+                                {
+                                    uniform token info:id = "RealityKit.HierarchicalFade"
+                                    float opacity = 1
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

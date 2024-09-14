@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		35EFF0D42C94F016009CD9C3 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 35EFF0D32C94F016009CD9C3 /* RealityKitContent */; };
+		35EFF12A2C94F202009CD9C3 /* sam2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 35EFF1272C94F202009CD9C3 /* sam2.usdz */; };
+		35EFF12B2C94F202009CD9C3 /* InfoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EFF11E2C94F202009CD9C3 /* InfoLabel.swift */; };
+		35EFF12C2C94F202009CD9C3 /* ObjectTrackingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EFF1232C94F202009CD9C3 /* ObjectTrackingApp.swift */; };
+		35EFF12D2C94F202009CD9C3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EFF11D2C94F202009CD9C3 /* HomeView.swift */; };
+		35EFF12E2C94F202009CD9C3 /* ListEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EFF11F2C94F202009CD9C3 /* ListEntryView.swift */; };
+		35EFF12F2C94F202009CD9C3 /* ObjectAnchorVisualization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EFF1182C94F202009CD9C3 /* ObjectAnchorVisualization.swift */; };
+		35EFF1302C94F202009CD9C3 /* sam2.referenceobject in Sources */ = {isa = PBXBuildFile; fileRef = 35EFF1262C94F202009CD9C3 /* sam2.referenceobject */; };
+		35EFF1312C94F202009CD9C3 /* ObjectTrackingRealityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EFF1202C94F202009CD9C3 /* ObjectTrackingRealityView.swift */; };
+		35EFF1322C94F202009CD9C3 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EFF1172C94F202009CD9C3 /* AppState.swift */; };
+		35EFF1332C94F202009CD9C3 /* ReferenceObjectLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EFF1192C94F202009CD9C3 /* ReferenceObjectLoader.swift */; };
+		35EFF1352C94F202009CD9C3 /* Entity+ObjectTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EFF11B2C94F202009CD9C3 /* Entity+ObjectTracking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,10 +35,21 @@
 		35EFF0CE2C94F016009CD9C3 /* MedicalHead3DViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicalHead3DViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35EFF0D22C94F016009CD9C3 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		35EFF0E92C94F018009CD9C3 /* MedicalHead3DViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicalHead3DViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35EFF1172C94F202009CD9C3 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		35EFF1182C94F202009CD9C3 /* ObjectAnchorVisualization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectAnchorVisualization.swift; sourceTree = "<group>"; };
+		35EFF1192C94F202009CD9C3 /* ReferenceObjectLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceObjectLoader.swift; sourceTree = "<group>"; };
+		35EFF11B2C94F202009CD9C3 /* Entity+ObjectTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+ObjectTracking.swift"; sourceTree = "<group>"; };
+		35EFF11D2C94F202009CD9C3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		35EFF11E2C94F202009CD9C3 /* InfoLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoLabel.swift; sourceTree = "<group>"; };
+		35EFF11F2C94F202009CD9C3 /* ListEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEntryView.swift; sourceTree = "<group>"; };
+		35EFF1202C94F202009CD9C3 /* ObjectTrackingRealityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectTrackingRealityView.swift; sourceTree = "<group>"; };
+		35EFF1232C94F202009CD9C3 /* ObjectTrackingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectTrackingApp.swift; sourceTree = "<group>"; };
+		35EFF1262C94F202009CD9C3 /* sam2.referenceobject */ = {isa = PBXFileReference; lastKnownFileType = file.referenceobject; path = sam2.referenceobject; sourceTree = "<group>"; };
+		35EFF1272C94F202009CD9C3 /* sam2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = sam2.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		35EFF0EF2C94F018009CD9C3 /* Exceptions for "MedicalHead3DViewer" folder in "MedicalHead3DViewer" target */ = {
+		35EFF1372C94F3E3009CD9C3 /* Exceptions for "MedicalHead3DViewer" folder in "MedicalHead3DViewer" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -40,7 +62,7 @@
 		35EFF0D02C94F016009CD9C3 /* MedicalHead3DViewer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				35EFF0EF2C94F018009CD9C3 /* Exceptions for "MedicalHead3DViewer" folder in "MedicalHead3DViewer" target */,
+				35EFF1372C94F3E3009CD9C3 /* Exceptions for "MedicalHead3DViewer" folder in "MedicalHead3DViewer" target */,
 			);
 			path = MedicalHead3DViewer;
 			sourceTree = "<group>";
@@ -74,6 +96,8 @@
 		35EFF0C52C94F016009CD9C3 = {
 			isa = PBXGroup;
 			children = (
+				35EFF1242C94F202009CD9C3 /* ObjectTracking */,
+				35EFF1282C94F202009CD9C3 /* Reference Objects */,
 				35EFF0D02C94F016009CD9C3 /* MedicalHead3DViewer */,
 				35EFF0D12C94F016009CD9C3 /* Packages */,
 				35EFF0EC2C94F018009CD9C3 /* MedicalHead3DViewerTests */,
@@ -96,6 +120,55 @@
 				35EFF0D22C94F016009CD9C3 /* RealityKitContent */,
 			);
 			path = Packages;
+			sourceTree = "<group>";
+		};
+		35EFF11A2C94F202009CD9C3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				35EFF1172C94F202009CD9C3 /* AppState.swift */,
+				35EFF1182C94F202009CD9C3 /* ObjectAnchorVisualization.swift */,
+				35EFF1192C94F202009CD9C3 /* ReferenceObjectLoader.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		35EFF11C2C94F202009CD9C3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				35EFF11B2C94F202009CD9C3 /* Entity+ObjectTracking.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		35EFF1212C94F202009CD9C3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				35EFF11D2C94F202009CD9C3 /* HomeView.swift */,
+				35EFF11E2C94F202009CD9C3 /* InfoLabel.swift */,
+				35EFF11F2C94F202009CD9C3 /* ListEntryView.swift */,
+				35EFF1202C94F202009CD9C3 /* ObjectTrackingRealityView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		35EFF1242C94F202009CD9C3 /* ObjectTracking */ = {
+			isa = PBXGroup;
+			children = (
+				35EFF11A2C94F202009CD9C3 /* App */,
+				35EFF11C2C94F202009CD9C3 /* Extensions */,
+				35EFF1212C94F202009CD9C3 /* Views */,
+				35EFF1232C94F202009CD9C3 /* ObjectTrackingApp.swift */,
+			);
+			path = ObjectTracking;
+			sourceTree = "<group>";
+		};
+		35EFF1282C94F202009CD9C3 /* Reference Objects */ = {
+			isa = PBXGroup;
+			children = (
+				35EFF1262C94F202009CD9C3 /* sam2.referenceobject */,
+				35EFF1272C94F202009CD9C3 /* sam2.usdz */,
+			);
+			path = "Reference Objects";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +248,9 @@
 			);
 			mainGroup = 35EFF0C52C94F016009CD9C3;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				35FA4EF22C95FAE400ECA09B /* XCRemoteSwiftPackageReference "RealityKit-Fade" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 35EFF0CF2C94F016009CD9C3 /* Products */;
 			projectDirPath = "";
@@ -191,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35EFF12A2C94F202009CD9C3 /* sam2.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +285,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35EFF12B2C94F202009CD9C3 /* InfoLabel.swift in Sources */,
+				35EFF12C2C94F202009CD9C3 /* ObjectTrackingApp.swift in Sources */,
+				35EFF12D2C94F202009CD9C3 /* HomeView.swift in Sources */,
+				35EFF12E2C94F202009CD9C3 /* ListEntryView.swift in Sources */,
+				35EFF12F2C94F202009CD9C3 /* ObjectAnchorVisualization.swift in Sources */,
+				35EFF1302C94F202009CD9C3 /* sam2.referenceobject in Sources */,
+				35EFF1312C94F202009CD9C3 /* ObjectTrackingRealityView.swift in Sources */,
+				35EFF1322C94F202009CD9C3 /* AppState.swift in Sources */,
+				35EFF1332C94F202009CD9C3 /* ReferenceObjectLoader.swift in Sources */,
+				35EFF1352C94F202009CD9C3 /* Entity+ObjectTracking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +558,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		35FA4EF22C95FAE400ECA09B /* XCRemoteSwiftPackageReference "RealityKit-Fade" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Reality-Dev/RealityKit-Fade";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		35EFF0D32C94F016009CD9C3 /* RealityKitContent */ = {
